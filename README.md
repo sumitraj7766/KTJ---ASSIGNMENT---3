@@ -1,16 +1,272 @@
-# React + Vite
+# 🚀 HabitFlow - Smart Habit Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-blue?logo=react">
+  <img src="https://img.shields.io/badge/Vite-Latest-purple?logo=vite">
+  <img src="https://img.shields.io/badge/React_Router-v7-red?logo=reactrouter">
+  <img src="https://img.shields.io/badge/Context_API-State_Management-green">
+  <img src="https://img.shields.io/badge/License-MIT-yellow">
+</p>
 
-Currently, two official plugins are available:
+A modern and responsive **Habit Tracking Web Application** built with **React.js** that helps users build positive habits, monitor progress, maintain streaks, and stay productive.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+# 📸 Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+> Add screenshots here
 
-## Expanding the ESLint configuration
+```
+Home Page
+Dashboard
+Add Habit
+Insights
+Consistency Grid
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+# ✨ Features
+
+## 🏠 Home
+
+- Beautiful landing page
+- Responsive navigation
+- Quick access to all pages
+
+---
+
+## ➕ Habit Management
+
+- Create new habits
+- Edit habits
+- Delete habits
+- Organize habits by category
+- Daily / Weekly frequency
+
+---
+
+## 📊 Dashboard
+
+- Total Habits
+- Today's Progress
+- Completion Percentage
+- Current Streak
+- Longest Streak
+- Mark Habit as Completed
+
+---
+
+## 📈 Insights
+
+- Habit Analytics
+- Best Performing Habit
+- Total Check-ins
+- Current Streak
+- Longest Streak
+- Habit Momentum Score
+- 7-Day Completion Rate
+
+---
+
+## 🔥 Consistency Grid
+
+- 30-Day Habit Activity
+- Category Filter
+- Heatmap Style View
+- Daily Completion Visualization
+
+---
+
+## ⏱ Pomodoro Timer
+
+- 25 Minute Focus Session
+- 5 Minute Break
+- Start
+- Pause
+- Reset
+
+---
+
+## ❄️ Freeze Token
+
+Never lose your streak accidentally.
+
+- Weekly Freeze Token
+- Protects your streak
+- One token per week
+
+---
+
+## 💾 Local Storage
+
+All habit data is automatically stored in your browser.
+
+No backend required.
+
+---
+
+# 🛠 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| React.js | Frontend |
+| Vite | Build Tool |
+| React Router DOM | Routing |
+| Context API | Global State |
+| JavaScript | Logic |
+| CSS3 | Styling |
+| Local Storage | Persistent Data |
+
+---
+
+# 📂 Project Structure
+
+```
+src
+│
+├── components
+│   ├── Analytics.jsx
+│   ├── Navbar.jsx
+│   └── PomodoroTimer.jsx
+│
+├── context
+│   ├── HabitContext.jsx
+│   ├── HabitContextObject.js
+│   └── useHabits.js
+│
+├── pages
+│   ├── Home.jsx
+│   ├── Dashboard.jsx
+│   ├── AddHabit.jsx
+│   ├── Insights.jsx
+│   ├── ConsistencyGrid.jsx
+│   └── About.jsx
+│
+├── utils
+│   ├── streakUtils.js
+│   └── momentumUtils.js
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+# 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/HabitFlow.git
+```
+
+Move into the project
+
+```bash
+cd HabitFlow
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run development server
+
+```bash
+npm run dev
+```
+
+Open
+
+```
+http://localhost:5173
+```
+
+---
+
+# 🎯 Future Improvements
+
+- User Authentication
+- Cloud Database
+- Reminder Notifications
+- Calendar View
+- Charts & Graphs
+- Dark / Light Theme
+- Export / Import Habits
+- Mobile App
+- AI Habit Suggestions
+
+---
+
+# 📸 Screenshots
+
+| Home | Dashboard |
+|------|-----------|
+| Add Screenshot | Add Screenshot |
+
+| Add Habit | Insights |
+|-----------|-----------|
+| Add Screenshot | Add Screenshot |
+
+| Consistency Grid |
+|------------------|
+| Add Screenshot |
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+
+2. Create a new branch
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push
+
+```bash
+git push origin feature-name
+```
+
+5. Open a Pull Request
+
+---
+
+# 👨‍💻 Author
+
+**Sumit Kumar**
+
+- GitHub: https://github.com/sumitraj7766
+- LinkedIn: https://www.linkedin.com/in/sumit-kumar/
+
+---
+
+# ⭐ Support
+
+If you found this project useful,
+
+⭐ Star this repository
+
+and consider following me on GitHub.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+Made with ❤️ by **Sumit Kumar**
