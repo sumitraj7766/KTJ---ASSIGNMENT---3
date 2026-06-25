@@ -14,7 +14,7 @@ A modern and responsive **Habit Tracking Web Application** built with **React.js
 
 # 📸 Preview
 
-> Add screenshots here
+
 
 ```
 Home Page
